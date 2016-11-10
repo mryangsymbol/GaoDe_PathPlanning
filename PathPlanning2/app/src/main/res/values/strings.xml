@@ -1,0 +1,1402 @@
+<resources>
+    <string name="app_name">基于高德的路径规划</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    /**
+    * FragmentRicle
+    */
+    <string name="txt_ricle_left">1</string>
+    <string name="txt_ricle_center">55</string>
+    <string name="txt_ricle_right">1</string>
+    <string name="_start">GO</string>
+    <string name="_sencond">||</string>
+    <string name="join_in_motoband">进入摩托邦</string>
+    <string name="locationing">正在定位中...</string>
+    <string name="txt_paused">PAUSED</string>
+    <string name="txt_paused_stop">已暂停</string>
+    <string name="txt_brand">BMW宝马 GS1200ADV</string>
+    <string name="txt_start">起</string>
+    <string name="txt_end">终</string>
+    <string name="release_news_explain">你可以创建一个由许多单独动态串联而成的故事</string>
+    <!--<string name="_third_left">GO</string>-->
+    <!--<string name="_third_right">||</string>-->
+
+    <string name="search_place">搜索地点</string>
+    <string name="search_place_set">点此设置</string>
+    <string name="search_place_set_home">点此设置家地址</string>
+    <string name="search_place_set_company">点此设置公司地址</string>
+    <string name="search_place_home">家</string>
+    <string name="search_place_company">公司</string>
+    <string name="search_place_collect">收藏地点</string>
+    <string name="home_and_company">家和公司</string>
+    <string name="collect">收藏</string>
+    /**
+    * FragmentMap
+    */
+    <string name="txt_map_kmh_num">0</string>
+    <string name="txt_map_kmh">km/h</string>
+    <string name="txt_map_kmh_bracket">(km/h)</string>
+    <string name="txt_map_brand">Harley Davidson 哈雷戴维森</string>
+    <string name="txt_map_type">Spoarster 883R运动版</string>
+
+    <string name="txt_map_time_num">00:00:00</string>
+    <string name="txt_map_time">行驶时间(hh:mm:ss)</string>
+    <string name="txt_map_max_num">0</string>
+    <string name="txt_map_max">极速(km/h)</string>
+    <string name="dynamic_speed_max">极速km/h</string>
+    <string name="txt_map_km_num">0.0</string>
+    <string name="txt_map_km">里程(km)</string>
+    <string name="txt_massing">集结中(5人)</string>
+    <string name="txt_map_show_massuser">机车妹</string>
+
+    <string name="create_rally">集结</string>
+
+    <string name="add_fill">加满</string>
+    <string name="input_thank_num">输入油箱加满后预估行驶总里程数(Km)</string>
+    <string name="OFF">OFF</string>
+
+    <string name="onehundand">百公里加速</string>
+    <string name="four_hundand">0&#8211;400米</string>
+    <string name="s">(s)</string>
+    /**
+    * FragmentGarage 车库
+    */
+    <string name="txt_garage">车库</string>
+    <string name="store">商店</string>
+    <string name="insure">保险</string>
+    <string name="txt_finance">金融</string>
+    <string name="txt_moto_dealer">神圣车行</string>
+    <string name="txt_bangbangbao">邦帮保</string>
+    <string name="txt_share">分享</string>
+    <string name="txt_motorcycle">车辆</string>
+    <string name="txt_box">盒子</string>
+    <string name="txt_add_garage1">车库还是空的，</string>
+    <string name="txt_add_garage2">赶紧把你的摩托车停进来，</string>
+    <string name="txt_add_garage3">获取最贴心的机车手册</string>
+    <string name="no_nearby_send_dynamic">附近没有人发动态</string>
+
+    <string name="txt_choose_line_default1">线路还是空的</string>
+    <string name="txt_choose_line_default2">赶紧跨上摩托车奔驰起来</string>
+
+    <string name="txt_add_dynamic1">还没有朋友发动态</string>
+    <string name="txt_add_dynamic2">你可以现在就发一个</string>
+
+    <string name="txt_add_wonderful_dynamic1">你还没有精选</string>
+    <string name="txt_add_wonderful_dynamic2">现在发就可能获得哦</string>
+
+    <string name="txt_motoBrand_show">Harley Davidson 哈雷戴维森</string>
+    <string name="txt_motoModel_show">Spoarster 883R运动版</string>
+    <string name="txt_motoCc_show">1000cc 2012</string>
+
+    <string name="txt_notebook">带着妹子去春游，4条京郊春季骑行路线</string>
+    <string name="txt_notebook_type">摩托邦生活手册</string>
+    <string name="txt_notebook_date">2016/12/03</string>
+
+
+    <string name="txt_insurance1">摩托邦骑士保险计划</string>
+    <string name="txt_insurance2">骑行安全  车辆财产   骑士维权</string>
+    <string name="txt_insurance3">安全多一些  保障多一些</string>
+    <string name="txt_insurance4"> </string>
+    <string name="txt_buy_insurance">购买保险</string>
+    <string name="stroll">逛一逛</string>
+
+    <string name="finance1">摩托邦分期贷</string>
+    <string name="finance2">第一时间购买到你喜欢的摩托车</string>
+    <string name="finance3">多贵也不要紧，摩托邦助你一臂之力！</string>
+    <string name="finance">我要分期</string>
+    <string name="txt_download_finance">下载贷款申请表</string>
+
+    <!-- 图片浏览 -->
+
+    <string name="only_choose_num">最多只能选择9张图片</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <!--<string name="preview">预览</string>-->
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="cameal_photo">图片</string>
+    <string name="btn_deletd_photo">删除</string>
+
+    /**
+    * FragmentLine
+    */
+    <string name="txt_line">线路</string>
+    <string name="txt_wo">我</string>
+    <string name="txt_ta">TA的</string>
+
+    <string name="txt_synchronization">备份</string>
+
+    <string name="txt_add_line1">没有保存过线路，</string>
+    <string name="txt_add_line2">开启你的骑行工具，</string>
+    <string name="txt_add_line3">与朋友分享你的美妙之旅</string>
+
+    <string name="txt_add_story1">故事还是空的</string>
+    <string name="txt_add_story2">赶紧创建属于你的故事吧</string>
+
+    <string name="txt_line_me_title">跟那个谁一起去妙峰山吃鱼</string>
+    <string name="txt_line_me_usetime">00:00:00</string>
+
+    <string name="txt_line_me_totalkm">9999KM</string>
+    <string name="txt_line_me_totalfriend">999</string>
+    <string name="txt_line_me_date">2013/01/04 05:20:14</string>
+
+
+    <string name="txt_line_ta_name">摩托邦</string>
+    <string name="txt_line_ta_num">6666</string>
+
+    <string name="look_more_story">查看更多精彩故事</string>
+    <string name="look_more">查看更多</string>
+
+    <!--txt_line_me_title-->
+    /**
+    * FragmentMe
+    */
+    <string name="tv_total_km">累计骑行</string>
+    <string name="tv_total_time">骑行时间</string>
+    <string name="tv_total_num">骑行次数</string>
+    <string name="tv_total_km_num">0.00</string>
+    <string name="tv_total_time_num">0.00</string>
+    <string name="tv_total_num_num">0</string>
+    <string name="tv_total_km_unit">KM</string>
+    <string name="tv_total_time_unit">HOURS</string>
+    <string name="tv_total_num_unit">TIMES</string>
+    <string name="ranking">排名</string>
+    <string name="mileage">里程(km)</string>
+    <string name="duration">时长</string>
+    <string name="dynamic_duration">时长time</string>
+    <string name="time">次数</string>
+    <string name="txt_person">我</string>
+    <string name="txt_myline">我的线路</string>
+    <string name="txt_function_set">设置</string>
+
+
+    <string name="txt_fragmentme_notice">通知</string>
+    <string name="txt_fragmentme_signature">摩托邦</string>
+    <string name="txt_fragmentme_grade">Lv:铁骑士1级</string>
+    <string name="txt_dynamic_num">0</string>
+    <string name="txt_motoband">摩托邦</string>
+    <string name="txt_dynamic">动态</string>
+
+    <string name="txt_attention_dynamic">关注</string>
+    <string name="txt_the_same_city_dynamic">同城</string>
+
+
+    <string name="top_all">TOP榜</string>
+    <string name="top_friends">好友</string>
+
+    <string name="txt_dry_cargo">阅读</string>
+    <string name="txt_sort">分类</string>
+    <string name="txt_reading_message">资讯</string>
+    <string name="txt_reading_topic">专题</string>
+    <string name="txt_topic">话题</string>
+    <string name="txt_run">约跑</string>
+    <string name="txt_motoband_rank">摩托邦TOP榜</string>
+
+    <string name="txt_top_day">日</string>
+    <string name="txt_top_week">周</string>
+    <string name="txt_top_month">月</string>
+
+    <string name="top1">TOP1</string>
+    <string name="top2">TOP2</string>
+    <string name="top3">TOP3</string>
+
+    <string name="txt_manager_run">管理约跑</string>
+    <string name="collect_address">收藏地址</string>
+    <string name="txt_the_same_city">同城</string>
+
+    <string name="txt_find">发现</string>
+    <string name="txt_list">榜单</string>
+
+    <string name="txt_select_city">选择城市</string>
+    <string name="txt_band_selection">精选</string>
+    <string name="txt_story">Story</string>
+    <string name="txt_in_a_batch">换一批</string>
+    <string name="txt_interest_topic">兴趣话题</string>
+    <string name="txt_interest">兴趣</string>
+    <string name="send_to">发送给：</string>
+
+    <string name="txt_interest_manage">兴趣管理</string>
+    <string name="txt_all_interest">全部兴趣</string>
+    <string name="txt_personal_interest">我的兴趣</string>
+    <string name="txt_see_more">更多</string>
+    <string name="clean_history_record">清空历史记录</string>
+
+
+    <string name="txt_join_topic">参与话题</string>
+    <string name="txt_join_exercise">参与活动</string>
+    <string name="txt_release_dynamic">发动态</string>
+    <string name="txt_dynamic_detail">动态详情</string>
+    <string name="txt_wonderful_story">精彩故事</string>
+    <string name="wonderful_story">精选故事</string>
+    <string name="wonderful">精彩</string>
+    <string name="txt_video">视频回放</string>
+    <string name="detail">详情</string>
+    <string name="txt_attention">关注</string>
+    <string name="txt_friend">好友</string>
+    <string name="txt_select_friend">选择好友</string>
+    <string name="txt_fans">粉丝</string>
+    <string name="txt_choiceness">精选</string>
+    <string name="txt_riding_total_time">次数(t)</string>
+    <string name="txt_riding_total_mileage">里程(km)</string>
+    <string name="txt_riding_total_duration">时长(h)</string>
+    <string name="txt_my_grade">我的等级</string>
+    <string name="txt_my_medal">我的勋章</string>
+    <string name="txt_my_gargae">我的车库</string>
+    <string name="txt_gargae">车库</string>
+    <string name="txt_Single_best_grades">单次最佳成绩</string>
+
+    <string name="txt_ave_speed">均速</string>
+    <string name="txt_max_speed">极速</string>
+    <string name="txt_angle">倾角</string>
+    <string name="txt_farthest_distance">最远距离(km)</string>
+    <string name="txt_longest_time">最长时间(hh:mm:ss)</string>
+    <string name="txt_time">时间(hh:mm:ss)</string>
+    <string name="txt_fastest_speed">最快速度(km/h)</string>
+    <string name="txt_biggest_Angle">最大倾角(°)</string>
+
+
+    <string name="address_book">他们也在玩摩托邦，赶快加好友吧</string>
+    <string name="no_address_book">他们还没加入摩托邦，赶快发送邀请吧</string>
+
+
+    <string name="txt_fragmentme_location">北京市朝阳区</string>
+
+    <string name="like">点赞</string>
+
+    <string name="txt_dynamic_comment">评论</string>
+    <string name="txt_comment_and_like">评论和赞</string>
+
+    <string name="txt_ta_grade">TA的等级</string>
+    <string name="txt_grade">等级</string>
+    <string name="txt_medal">勋章</string>
+    <string name="txt_ta_medal">TA的勋章</string>
+    <string name="txt_ta_gargae">TA的车库</string>
+    <string name="txt_ta_line">TA的线路</string>
+
+    <string name="txt_report">举报</string>
+    <string name="txt_navi">导航去这里</string>
+    <string name="txt_send">发送</string>
+
+
+    <string name="garbage_marketing">垃圾营销</string>
+    <string name="pornographic">淫秽色情</string>
+    <string name="illegal_information">违法信息</string>
+    <string name="personal_attack">人身攻击</string>
+    <string name="harmful_information">有害信息</string>
+
+    <string name="share_rideline_experience">精彩骑士生活...</string>
+    <string name="choose_ridiLine">选择线路</string>
+    <string name="ridiLine_share">线路分享</string>
+    <string name="map_isshow">地图可见</string>
+    <string name="add_location">所在位置</string>
+    <string name="im_location">位置</string>
+    <string name="txt_creat_story">创建/续写故事</string>
+    <string name="txt_writing_story">续写故事</string>
+    <string name="add_topic">选择话题</string>
+    <string name="no_show_location">不显示位置</string>
+    <string name="no_show_line">不选择线路</string>
+
+    <string name="release">发布</string>
+    <string name="cancel">取消</string>
+    <string name="say_something">评论</string>
+    <string name="say_some">说点什么?</string>
+    <string name="box_say_some">说点什么呢</string>
+    <string name="join">加入</string>
+
+
+    <string name="topic_time">时间</string>
+    <string name="topic_hot">热门</string>
+
+    <string name="navigation">导航</string>
+
+
+    <!--//&#160;  空格-->
+    <string name="layout_easy_play_1_title">留下骑行生活踪迹</string>
+    <string name="layout_easy_play_1_content">记录骑行精彩，内置地图导航\n记录结束获得详尽的骑行报告</string>
+    <string name="layout_easy_play_2_title">社区首页全新改版</string>
+    <string name="layout_easy_play_2_content">新增个人兴趣标签\n全部最新精选动态</string>
+    <string name="layout_easy_play_3_title">更丰富的个人动态</string>
+    <string name="layout_easy_play_3_content">可从摩托邦首页滑动切换\n更方便查看关注人动态</string>
+    <string name="layout_easy_play_4_title">阅读版块全面升级</string>
+    <string name="layout_easy_play_4_content">聚合内容引擎\n为你带来最新最全的摩托内容</string>
+    <string name="layout_easy_play_5_title">故事新编</string>
+    <string name="layout_easy_play_5_content">进入故事自动定位到最新\n智能定位到上次阅读页</string>
+
+    <string name="txt_label">标签</string>
+    <string name="txt_add_label">添加标签</string>
+    <string name="txt_must_label">添加标签(必选)</string>
+    /*
+    *NewsTypeActivity
+    */
+
+    <string name="newtype_justride">JUST RIDE!</string>
+    <string name="newtype_best_rider">最好的骑士都在这里</string>
+    <string name="newtype_message1">严禁发布色情、暴力、血腥、反动等违法信息，欢迎举报！</string>
+    <string name="newtype_message2">对无视举报且不主动删除的用户将作封号处理</string>
+
+    /**
+    * Activity person set
+    */
+    <string name="person_set_title">个人设置</string>
+    <string name="person_message">个人资料</string>
+    <string name="txt_person_name">昵称</string>
+    <string name="txt_person_location">地区</string>
+    <string name="txt_person_sex">性别</string>
+    <string name="txt_person_birthday">生日</string>
+    <string name="txt_person_signature">个人签名</string>
+
+    <string name="txt_person_name_set">昵称</string>
+    <string name="txt_person_location_set">地区</string>
+    <string name="txt_person_sex_set">性别</string>
+    <string name="txt_person_signature_set">个人签名</string>
+    /**
+    * Activity person set name
+    */
+    <string name="txt_person_name_center">修改昵称</string>
+    /**
+    * Activity person set location
+    */
+    <string name="txt_person_location_center">我的位置</string>
+
+    /**
+    * Activity person set sex
+    */
+    <string name="txt_person_sex_center">选择性别</string>
+    <string name="txt_person_sex_man">男</string>
+    <string name="txt_person_sex_woman">女</string>
+    /**
+    * Activity person set signature
+    */
+    <string name="txt_person_signature_center">修改签名</string>
+    <string name="tel">手机号</string>
+    <string name="verity">验证码</string>
+    <string name="less_than">(不超过40字)</string>
+    /**
+    * Activity person set birthday
+    */
+    <string name="birthday">生日</string>
+    /**
+    * Activity feedback
+    */
+    <string name="txt_feedback">意见反馈</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_new_conversation">新建会话</string>
+    <string name="feedback_title">用户反馈</string>
+    <string name="fb_fragment_activity">使用 SDK Fragment</string>
+    <string name="sdk_fb_activity">使用 SDK Activity</string>
+    <string name="multi_conversation_activity">多会话模式</string>
+    <string name="title_item_list">反馈列表</string>
+    <string name="fb_help_activity">帮助页面</string>
+
+    <string name="exercise">活动</string>
+    <string name="exemptions">免责声明</string>
+    <string name="exemptions_title">约跑是围绕骑士的集体出行活动，采取自主发起、自愿参加、自我服务的原则建立的，无任何盈利行为，所有参与者须遵循安全、友爱、开心的骑行原则，并接受该免责声明。</string>
+    <string name="exemptions1">1. 发起者有义务告知准确的约跑事宜、集合地点及行程安排，须对集体出行的安全提出要求和指导；</string>
+    <string name="exemptions2">2. 参与者必须对自己的安全负责，约跑过程中发生交通意外或事故，发起者和参与者有义务组织救援和改变行程，非约跑成员之间造成的安全事故，不承担法律和经济责任；</string>
+    <string name="exemptions3">3. 约跑成员建议购买骑行保险，减少意外造成人身伤害在救治、护理等产生的支出和医疗费用；</string>
+    <string name="exemptions4">4. 活动开始后本声明自动生效，并表明所有参与者已经接受本声明。否则，请在约跑开始前退出。</string>
+    /**
+    * Activity add friend
+    */
+    <string name="txt_add_friend">添加好友</string>
+    <string name="add_friend">加好友</string>
+    <string name="attention_ta">关注Ta</string>
+    <string name="txt_user_name">手机号</string>
+    <string name="txt_search_user_name">用户名</string>
+    <string name="txt_search_user">用户</string>
+    <string name="txt_pass">通过</string>
+    <string name="txt_hope_add_you_friend">希望添加你为好友</string>
+    <string name="motoband">摩托邦骑行</string>
+    <string name="dynamic_user_name">MotoBand</string>
+
+    <string name="two_code">扫二维码下载</string>
+    <string name="best_riditer">最好的骑士都在这里！</string>
+    /**
+    * Activity myfriends
+    */
+    <string name="txt_my_friend">我的好友</string>
+    <string name="txt_my_friend_user_name">手机号</string>
+    <string name="txt_my_friends_num">0</string>
+
+    <string name="txt_my_friend_txt_mileage">里程</string>
+    <string name="txt_my_friend_max_speed">时长</string>
+    <string name="txt_my_friends_like">次数</string>
+
+    <string name="txt_my_friend_txt_mileage_km">里程km</string>
+    <string name="txt_my_friend_max_speed_h">时长h</string>
+    <string name="txt_my_friends_like_t">次数t</string>
+
+    /**
+    * Activity mass集结
+    */
+    <string name="txt_mass">集结</string>
+    <string name="img_mass_add">完成</string>
+    <string name="txt_mass_name">我</string>
+    <string name="txt_mass_exist_memeber">已有成员(1)</string>
+    <string name="txt_mass_add_new_memeber">添加新成员</string>
+    <string name="txt_mass_invite">邀请</string>
+    <string name="invite_mass_show">邀请成员　人，正在集结　人</string>
+    <string name="txt_exit_mass">退出集结</string>
+
+
+    <string name="add_point">添加地点</string>
+
+
+    /**
+    * Activity invitemass邀请集结
+    */
+    <string name="txt_invitemass">邀请集结</string>
+    <string name="txt_delete_member">删除成员</string>
+    <string name="select_invitemass">选择集结点</string>
+    <string name="edt_search_invite_mass_friend">搜索好友</string>
+    <string name="search_invite_mass_friend">搜索好友昵称</string>
+    <string name="txt_invite_mass">集结</string>
+    <string name="txt_add_friends">还没有好友\n赶紧添加一些好友吧</string>
+
+    /**
+    * MyLineActivity
+    */
+    <string name="txt_my_line">我的线路</string>
+    <string name="txt_my_route">我的路书</string>
+    <string name="txt_my_run">我的约跑</string>
+    <string name="txt_new_route">新线路</string>
+    <string name="txt_route_start">添加开始点</string>
+    <string name="txt_route_via_one">添加途经点1</string>
+    <string name="txt_route_via_two">添加途经点2</string>
+    <string name="txt_route_via_there">添加途经点3</string>
+    <string name="txt_route_end">添加结束点</string>
+    <string name="txt_my_line_compile">编辑</string>
+    <string name="add">+</string>
+    /**
+    * YourActivity
+    */
+    <string name="txt_your_name">查看好友</string>
+    <string name="txt_your_garage">车库</string>
+    <string name="txt_your_route">线路</string>
+    <string name="txt_add_to_fridend">添加</string>
+    <string name="txt_your_amend_remark">修改备注</string>
+    <string name="txt_delete_friend">删除</string>
+
+    /**
+    * TAGarageActivity
+    */
+    <string name="txt_your_agare">TA的车库</string>
+
+    /**
+    * TALineActivity
+    */
+    <string name="txt_your_taline">TA的线路</string>
+    <string name="taline_iszeso_view">TA的线路还是空的</string>
+    <string name="tagarage_iszeso_view">TA的车库还是空的</string>
+
+
+    /**
+    * RemarkActivity
+    */
+    <string name="txt_remark">修改备注</string>
+    <string name="remark">备注</string>
+    <string name="remark_name">备注名</string>
+    <string name="txt_remark_user_name">MOTOBAND</string>
+    /**
+    * Activity AddMotorcycleActivity
+    */
+    <string name="txt_add_garage">添加车辆</string>
+    <string name="txt_add_brand">机车品牌</string>
+    <string name="txt_add_type">对应车型</string>
+    <string name="txt_add_cc">排量</string>
+    <string name="txt_add_years">生产年份</string>
+    <string name="txt_add_brand_type">HONDA</string>
+
+    <string name="txt_add_motorcycle_type">对应车型</string>
+    <string name="txt_add_motorcycle_type_type">HBR300F</string>
+    <string name="txt_add_power">动力排量</string>
+
+    <string name="txt_add_year">生产年份</string>
+    <string name="add_photo">添加图片</string>
+    <string name="delete_photo_select">删除照片</string>
+    <string name="txt_diogle">删除图片</string>
+    <string name="delete_photo_hint">确定删除照片？</string>
+    <string name="delete_photo_true">确定</string>
+    <string name="delete_photo_flase">取消</string>
+
+    <string name="select_takephoto">拍摄</string>
+    <string name="select_photo">相册</string>
+    <string name="newtype_photo">照片</string>
+    <string name="newtype_video">小视频</string>
+
+    <string name="replace_or_delete_photo">替换或删除图片</string>
+    <string name="delete_photo">删除</string>
+    <string name="set_photo">设置为封面</string>
+    <string name="search">搜索/输入</string>
+    <string name="input_cc">输入</string>
+    <string name="input_topic">搜索话题</string>
+    <string name="txt_search">搜索</string>
+    <string name="txt_search_label_story">搜索标签/故事</string>
+    <string name="txt_set_rally">点此设置集结点</string>
+
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+
+    <string name="select_point_true">确认选点</string>
+    <string name="select_put_true">确认发送</string>
+    /**
+    * Activity AddLineActivity
+    */
+
+    <string name="txt_add_line">编辑线路</string>
+    <string name="txt_add_line_title">请输入线路名称</string>
+    <string name="txt_add_line_start_location">开始</string>
+    <string name="txt_add_line_end_location">结束</string>
+    <string name="txt_add_line_start_location_main">请输入起始地点</string>
+    <string name="txt_add_line_end_location_main">请输入终止地点</string>
+    <string name="txt_add_line_main_body">骑行正文</string>
+    <string name="txt_riding">骑行</string>
+
+
+    /**
+    * Activity GarageBrowseActivity
+    */
+    <string name="txt_browse">盒子</string>
+
+    <string name="img_finish"> </string>
+    //返回
+    <string name="url_finish">返回</string>
+    <string name="img_cancel">取消</string>
+    <string name="img_save">保存</string>
+    <string name="manager">管理</string>
+    <string name="img_save_to">提交</string>
+    <string name="get">获取验证码</string>
+    <string name="login">登录</string>
+
+    <string name="personal">个人中心</string>
+    <string name="txt_name">C-MAKE</string>
+
+    <string name="txt_location">北京市 朝阳区</string>
+    <string name="txt_friends">查看好友</string>
+    <string name="txt_friends_num">9999</string>
+
+    <string name="about_ride_one_line">关于线上骑行赛</string>
+    <string name="about_ride_one_line_detail">赛事说明：\n
+MotoBandGP（MGP）线上骑行赛是摩托邦围绕骑士骑行生活推出的线上赛事；赛程主题多样精彩，完赛可获各主题分站勋章，
+        TOP100车手还可进入榜单；我们鼓励大家通过日常骑行的方式，体验MotoGP比赛精神，让骑行更具仪式感。\n\n
+
+注意事项：\n
+－请确保在良好网络环境下参加线上骑行活动；\n
+－选择开始参赛后，直至完赛，才可退出（不影响正常使用）记录模式；\n
+－参与活动期间个人多次骑行公里数累积到一起；\n
+－赛程中不会影响日常记录，再次点GO会自动续接上次赛点，结束记录需手动选择上报比赛数据；\n
+－达成总公里数自动完赛。</string>
+
+    <string name="txt_set">功能设置</string>
+    <string name="txt_recommend_to_friends">推荐给朋友</string>
+    <string name="txt_map">地图透明度</string>
+    <string name="txt_weather">本地天气</string>
+    <string name="txt_satellite">卫星地图</string>
+    <string name="txt_compass">指南针</string>
+    <string name="txt_altitude">海拔高度</string>
+    <string name="txt_stop">自动暂停</string>
+    <string name="txt_user_feedback">意见反馈</string>
+
+    <string name="txt_message_clean">清除缓存</string>
+    <string name="txt_message_push">消息推送</string>
+    <string name="txt_screen_on">屏幕常亮</string>
+    <string name="txt_notice">通知提醒</string>
+    <string name="notice">通知</string>
+    <string name="dynamic_notice">消息</string>
+    <string name="clean">清空</string>
+    <string name="no_notice"> 没有通知</string>
+
+
+    <string name="txt_richScan">扫一扫</string>
+    <string name="txt_my_two_dimension_code">我的二维码</string>
+    <string name="rank_code">签到码</string>
+    <string name="scanning_rank_code">约跑发起者扫描此二维码</string>
+    <string name="txt_nearby_cool">附近的车友</string>
+    <string name="txt_nearby">附近</string>
+    <string name="txt_recommend">推荐</string>
+    <string name="recommend_people">推荐达人</string>
+    <string name="txt_address_book_friends">通讯录加关注</string>
+    <string name="txt_invite_friends">邀请好友</string>
+    <string name="txt_delete_friends">删除好友</string>
+    <string name="txt_friends_list">成员列表</string>
+    <string name="txt_delete_run_friends">删除成员</string>
+
+    <string name="my_line_num"> </string>
+    <string name="zero">0</string>
+    <string name="nullnum"> </string>
+    <string name="zerok">0K</string>
+    <string name="zero00">0.0</string>
+    <string name="zero000000">00:00:00</string>
+    <string name="txt_faq">常见问题</string>
+    <string name="txt_service_contract">用户协议</string>
+
+    <string name="txt_blacklist">黑名单</string>
+    <string name="txt_easy">轻松上手</string>
+    <string name="txt_aboutus">关于我们</string>
+    <string name="txt_about">关于</string>
+    <string name="txt_aboutus_title">关于摩托邦</string>
+    <string name="txt_business_cooperation">商务合作</string>
+    <string name="txt_business">关于商业</string>
+    <string name="txt_check_up">检查更新</string>
+    <string name="txt_exit">退出登录</string>
+
+    <string name="txt_need_help">如需更多帮助</string>
+    <string name="txt_qq">请加官方QQ反馈群：423711595</string>
+    <string name="txt_feedback_prompt">你的反馈会在24小时内得到回复，请记得来看</string>
+    <string name="txt_qq_long">如需更多帮助,请加官方QQ反馈群：423711595</string>
+    <string name="etx_feedback">请输入意见反馈</string>
+    <string name="feedback_email">限300字，如需提供更多反馈请发送邮件到cq@motoband.com</string>
+
+    /**
+    * Activity aboutus
+    */
+    <string name="about">关于摩托邦</string>
+    <string name="kmh">km/h</string>
+    <string name="kmh_num">0</string>
+    <string name="num20">20</string>
+
+    <string name="tv_runtime">00:00:00</string>
+    <string name="tv_run_time">时长(hh:mm:ss)</string>
+    <string name="welcome_to_motoband">欢迎来到摩托邦的世界</string>
+    <string name="motoband_1">摩托邦骑行是一款为狂热摩托车爱好者而创造的智能工具。摩托邦可以满足骑士在骑乘中的多个实际需求，让每一次骑行都更加智能和安全。</string>
+    <string name="motoband_2">摩托邦也是骑士在移动互联网世界里唯一的乌托邦；在这里，骑士是主人，骑行是我们的一切，摩托邦会逐渐实现骑士的一切幻想，所以，请保持好奇心，与我们一起骑行向前。</string>
+
+    <string name="motoband_3">MotoBand App V1.0.0</string>
+    <string name="motoband_4">Motoband Network Technology Co.,Ltd.</string>
+
+
+    <string name="join_to_motoband">欢迎成为摩托邦的伙伴！</string>
+
+    <string name="motoband_about_us">摩托邦之所以出现，是想在这个并不善意的骑行环境里让更多人知道：有这样一群骑士，ta们守法自律，ta们具备全球文化审美和价值观，ta们正推动中国新一次摩托车文化及骑行生活的升级；\n\n
+
+摩托邦是国内领先的工具+社交app，是为狂热摩托车爱好者创造的智能骑行工具，满足新一代摩托车用户的骑行升级需求；\n\n
+
+2016年3月上线，即获得创新工场、阿尔法公社、真格基金、隆领投资四家顶级投资机构联合投资；\n\n
+
+摩托邦创始团队均在国内顶级互联网公司及摩托车行业有多年的经验积累，也同为摩托车爱好者，是最了解这个群体的人之一，也是一个多次创业成功的团队；\n\n
+
+“摩托邦”“motoband”“摩托帮”“motuobang”都为 摩托邦（北京）网络科技有限公司 旗下品牌，任何公司或个人不得侵占和冒用，一旦发现，本公司保留法律追究权。</string>
+    <string name="motoband_business_cooperation">好的骑行生态离不开好的后市场服务，摩托邦作为国内最大的垂直类工具+社交平台，理应承担起共建生态的责任；\n\n
+
+因一己之力有限，所以摩托邦持开放态度，愿与奋战在一线为用户提供落地服务的优质机构合作，共同成长和进步，为摩托车骑行群体提供更科学有效优质的落地服务；\n\n
+
+如您自认是诚信、专业、实力可靠的机构或个人，请联络我们，摩托邦团队在此恭候。\n\n
+
+请将您的基本资料和介绍发至：bd@motoband.com</string>
+
+    <string name="txt_business_content">在互联网世界里，当某项服务免费时，你就不再是消费者，反而成为被消费的对象。摩托邦坚信出色的用户体验，不应以牺牲用户隐私为代价；\n\n
+
+所以我们的商业模式很简单：就是销售出色的商品。我们不会根据你的车型和骑行记录或使用习惯来建立档案，然后出售给广告商；也不会用你在摩托邦生成的数据来赚钱，更不会读取你的私人资料，从中获取信息向你推销商品。摩托邦的设计初衷，就是让我们的软件好用，让你更方便得到你想要的。是的，就这么简单；\n\n
+
+我们知道获得信任并非易事，也正因为此，摩托邦才一如既往地全力以赴，来赢得并保持这份信任。 </string>
+
+
+    <string name="tv_max_speed_num">0</string>
+    <string name="tv_max_speed">极速(km/h)</string>
+    <string name="max_speed">极速(km/h)</string>
+    <string name="tv_distance_num">0.0</string>
+    <string name="tv_distance">里程(km)</string>
+
+    <string name="txt_no_motoband1">已扫描到以下网址：</string>
+    <string name="txt_no_motoband2">如需浏览，可复制网址使用浏览器打开</string>
+    <string name="txt_no_motoband3">以上扫描内容并非摩托邦提供，请谨慎使用</string>
+
+
+    <string name="txt_planning">规划方式</string>
+    <string name="txt_recommend_route">速度最快</string>
+    <string name="txt_avoid_congestion">距离最近</string>
+    <string name="txt_no_walk_fast">避开快速路</string>
+
+    <string name="txt_cost_precedence">费用优先</string>
+    <string name="txt_time_precedence">时间优先</string>
+    <string name="txt_day_night">日夜模式</string>
+    <string name="txt_auto">自动模式</string>
+    <string name="txt_day">白天模式</string>
+    <string name="txt_night">夜间模式</string>
+    <string name="txt_broadcast_like">播报偏好</string>
+    <string name="txt_road_ahead">前方路况</string>
+    <string name="txt_electronic_eye">电子眼</string>
+    <string name="txt_navigation_view">导航视角</string>
+    <string name="txt_2d">2D</string>
+    <string name="txt_3d">3D</string>
+    <string name="txt_hud">HUD模式</string>
+
+
+    /**
+    * popo
+    */
+    <string name="popo_title">添加照片</string>
+    <string name="btn_takephoto">拍照</string>
+    <string name="btn_photo">手机相册选择</string>
+    <string name="btn_exit_photo">取消</string>
+
+    /**
+    * AddMotorcycleActivity
+    */
+    <string name="txt_ok">确定</string>
+    <!--txt_ok-->
+    /**
+    * Activity MyLine
+    */
+    <string name="txt_myline_title">妙峰山吃鱼很哈吃很好吃</string>
+    <string name="txt_myline_time">2016/02/02</string>
+    <string name="txt_myline_brand">妙峰山吃鱼</string>
+    <string name="txt_myline_type">1000cc 2012</string>
+
+    <string name="txt_myline_km_num">999KM</string>
+    <string name="txt_myline_km">里程(km)</string>
+    <string name="txt_myline_ridingtime_num">00:44:32</string>
+    <string name="txt_myline_ridingtime">时长(hh:mm:ss)</string>
+    <string name="txt_hhmmss">hh:mm:ss</string>
+    <string name="title_activity_ttttt">ttttt</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="txt_myline_ave_speed">平均速度</string>
+    <string name="txt_myline_max_speed">最高速度</string>
+    <string name="txt_myline_km_h">速度(km/h)</string>
+    <string name="txt_km_h">km/h</string>
+    <string name="txt_line_angle">压弯角度(°)</string>
+    <string name="txt_myline_YNAINFO">即时数据</string>
+    <string name="txt_myline_angle">(°)倾角</string>
+
+    <string name="txt_myline_angle2">倾角(°)</string>
+    <string name="txt_dynamic_angle">倾角°</string>
+    <string name="txt_myline_max_as">最大斜角</string>
+    <string name="txt_myline_max_as_bracket">(°)</string>
+    <string name="txt_myline_max_height">最高海拔(m)</string>
+    <string name="txt_myline_height">(m)</string>
+    <string name="max_height">海拔</string>
+    <string name="txt_myline_status">不公开</string>
+    <string name="txt_myline_share">分享</string>
+    <string name="txt_like_people">赞过的人</string>
+
+    /**
+    * Activity LinePlayBack
+    */
+    <string name="txt_line_playback">线路回放</string>
+    <string name="txt_rideline_playback">数据详情</string>
+    <string name="txt_playback">回放</string>
+    /**
+    * Delete Garage
+    */
+    <string name="delete_garage_hint">提示</string>
+    <string name="delete_garage_hint_content">确定要删除车辆？</string>
+    <string name="delete_garage_true">确定</string>
+    <string name="delete_garage_flase">取消</string>
+
+    /**
+    * ServiceAgreementActivity
+    */
+
+    <string name="service_agreement">服务协议</string>
+
+    /**
+    * EasyPlayActivity
+    */
+    <string name="layout_easyplay_2_1">摩托车就是你的Bigger</string>
+    <string name="layout_easyplay_2_2">在车库里添加爱车照片</string>
+    <string name="layout_easyplay_2_3">新车还是改装都能收获羡慕眼光</string>
+
+    <string name="layout_easyplay_3_1">尽享机车生活精彩之旅</string>
+    <string name="layout_easyplay_3_2">分享你的骑行生活</string>
+    <string name="layout_easyplay_3_3">沿途美景和心得，不能一人独享</string>
+
+    <string name="layout_easyplay_4_1">把伙伴们集结起来</string>
+    <string name="layout_easyplay_4_2">组成临时车队共享位置</string>
+    <string name="layout_easyplay_4_3">约饭还是跑山再也不怕丢掉好友</string>
+
+    <string name="layout_easyplay_5_1">每一次骑行都是你的骄傲</string>
+    <string name="layout_easyplay_5_2">分享你的骑行生活</string>
+    <string name="layout_easyplay_5_3">沿途美景和心得，不能一人独享</string>
+
+    <string name="layout_easyplay_6_1">加满油箱 现在出发</string>
+    <string name="layout_easyplay_6_2">骑行数据统统记录</string>
+    <string name="layout_easyplay_6_3">专业骑士资格一部达成呦</string>
+
+    <string name="layout_easyplay_7_1">开启你的精彩之旅</string>
+    <string name="layout_easyplay_7_2">分享你的骑行生活</string>
+    <string name="layout_easyplay_7_3">沿途美景和心得，不能一人独享</string>
+
+
+    <string name="find_motoband">恭喜你发现摩托邦</string>
+    <string name="current_location">当前定位</string>
+    <string name="china">全国</string>
+    <string name="at_the_moment">此刻</string>
+    <!--<string name="app_name">PullToRefresh</string>-->
+
+    <!--<string name="action_settings">Settings</string>-->
+
+    <!--<string name="hello_world">Hello world!</string>-->
+
+    <string name="btn_scroll_view">ScrollView demo</string>
+
+    <string name="btn_list_view">ListView demo</string>
+
+    <string name="header_hint_refresh_normal">Pull to refresh</string>
+
+    <string name="header_hint_refresh_ready">Release to refresh</string>
+
+    <string name="header_hint_refresh_loading">Refreshing…</string>
+
+    <string name="header_hint_refresh_time">Time：</string>
+
+    <string name="footer_hint_load_normal">加载更多</string>
+
+    <string name="footer_hint_load_ready">加载更多</string>
+    <string name="licheng_0">0.0</string>
+
+    /**
+    * ToolSetActivity
+    */
+
+    <string name="tool_set">工具设置</string>
+    <string name="txt_tool_set">地图设置</string>
+    <string name="txt_auto_pause">自动暂停</string>
+    <string name="txt_auto_pause_explain">仅统计骑行过程中产生的累计时间</string>
+    <string name="txt_scroll_lock">屏幕锁定</string>
+    <string name="txt_scroll_lock_explain">在骑行过程中屏幕常亮，不会受系统设置而变暗或锁屏</string>
+    <string name="txt_dark_map">地图模式</string>
+    <string name="txt_dark_map_explain">地图显示为白天/卫星/黑夜模式</string>
+    <string name="txt_offline_map">离线地图</string>
+    <string name="txt_offline_map_explain">下载离线地图能节省流量和电量</string>
+
+
+    <string name="riding_mile">骑行里程</string>
+    <string name="riding_mile_km">(km)</string>
+    <string name="riding_time">骑行时间</string>
+    <string name="riding_time_t">(t)</string>
+    <string name="riding_all_time">总时间</string>
+    <string name="riding_report">骑行报告</string>
+
+    <string name="choose_line_time">骑行时间(t)</string>
+    <string name="choose_line_km">骑行里程(km)</string>
+
+    <string name="riding">骑行</string>
+    <string name="wonderful_news">精选动态</string>
+    <string name="story">故事</string>
+    <string name="see_story">看故事</string>
+    <string name="creat_story">创建故事</string>
+    /**
+    * OfflineMapActivity
+    */
+    <string name="txt_cancel">取消</string>
+
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="action_done">完成</string>
+    <string name="photo_unit">张</string>
+    <string name="tip_take_photo">拍摄照片</string>
+
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="refresh">刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="title_activity_fans">FansActivity</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label" translatable="false">向下加载更多</string>
+    <string name="pull_to_refresh_from_bottom_release_label" translatable="false">松开加载更多</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label" translatable="false">加载中</string>
+
+
+    <string name="head">这里是HeadView</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+    /*
+    *GradeActivity 等级
+    */
+    <string name="get_grade">获得铁骑士勋章</string>
+    <string name="rise_in_rank">在骑行多少公里将完成晋级</string>
+    <string name="just_ride_go">JUST RIDE ! GO !</string>
+    <string name="just_ride">Just Ride !</string>
+
+
+    <string name="iron_knight">铁骑士1级</string>
+    <string name="copper_knight">铜骑士1级</string>
+    <string name="silver_knight">银骑士1级</string>
+    <string name="gold_knight">金骑士1级</string>
+
+    <string name="grade_two">2级</string>
+    <string name="grade_there">3级</string>
+    <string name="grade_four">4级</string>
+    <string name="grade_five">5级</string>
+
+    <string name="total_km">总公里(km)</string>
+
+    <string name="total_riding_over_5_km">累计骑行超5公里</string>
+    <string name="total_riding_over_400_km">累计骑行超400公里</string>
+    <string name="total_riding_over_800_km">累计骑行超800公里</string>
+    <string name="total_riding_over_1200_km">累计骑行超1200公里</string>
+    <string name="total_riding_over_1600_km">累计骑行超1600公里</string>
+
+    <string name="total_riding_over_2000_km">累计骑行超2000公里</string>
+
+    <string name="total_riding_over_2600_km">累计骑行超2600公里</string>
+    <string name="total_riding_over_3200_km">累计骑行超3200公里</string>
+    <string name="total_riding_over_3800_km">累计骑行超3800公里</string>
+    <string name="total_riding_over_4400_km">累计骑行超4400公里</string>
+
+    <string name="total_riding_over_5000_km">累计骑行超5000公里</string>
+
+    <string name="total_riding_over_6000_km">累计骑行超6000公里</string>
+    <string name="total_riding_over_7000_km">累计骑行超7000公里</string>
+    <string name="total_riding_over_8000_km">累计骑行超8000公里</string>
+    <string name="total_riding_over_9000_km">累计骑行超9000公里</string>
+
+    <string name="total_riding_over_10000_km">累计骑行超10000公里</string>
+
+    <string name="total_riding_over_15000_km">累计骑行超15000公里</string>
+    <string name="total_riding_over_20000_km">累计骑行超20000公里</string>
+    <string name="total_riding_over_25000_km">累计骑行超25000公里</string>
+    <string name="total_riding_over_30000_km">累计骑行超30000公里</string>
+
+    /*
+    *MedalActivity 勋章
+    */
+
+    <string name="swift_horse_medal">千里马勋章</string>
+    <string name="lightning_medal">闪电勋章</string>
+    <string name="camel_medal">骆驼勋章</string>
+    <string name="gecko_medal">壁虎勋章</string>
+    <string name="eagle_medal">金鹰勋章</string>
+    <string name="moods_medal">人气勋章</string>
+    <string name="get_medal">已获0枚</string>
+
+
+    <string name="swift_horse_medal_condition">单次超1000公里</string>
+    <string name="lightning_medal_condition">单次极速240</string>
+    <string name="camel_medal_condition">单次骑行超过20小时</string>
+    <string name="gecko_medal_condition">压弯35度</string>
+    <string name="medal_condition">压弯角度</string>
+    <string name="eagle_medal_condition">海拔5000米以上骑行</string>
+    <string name="moods_medal_condition">单次被赞过500次</string>
+
+
+    <string name="do_please_look_forward_to">尽请期待</string>
+    <!--千里马勋章-->
+
+    <!--闪电勋章-->
+
+    <!--骆驼勋章-->
+
+    <!--壁虎勋章-->
+
+    <!--金鹰勋章-->
+
+    <!--人气勋章-->
+
+    <!--//约跑-->
+    <string name="run">发起约跑</string>
+    <string name="put_title">点击输入标题</string>
+    <string name="run_topic">约跑主题</string>
+    <string name="check_scene">选择场景</string>
+    <string name="start_place">出发地</string>
+    <string name="end_place">目的地</string>
+    <string name="run_explain">约跑说明</string>
+    <string name="time_and_location">修改时间地点</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="run_gather_time">集合时间</string>
+    <string name="run_gather_location">集结地点</string>
+    <string name="run_gather">集合地</string>
+    <string name="run_select_city">发布地区</string>
+    <string name="run_apply_message">补充约跑信息</string>
+    <string name="run_people_upper_limit">人数上限</string>
+    <string name="run_play_line">计划线路</string>
+    <string name="run_apple_stop_time">报名截止时间</string>
+    <string name="join_verify">需验证加入</string>
+    <string name="runing">约起来!</string>
+    <string name="cancel_select">取消选择</string>
+
+    <string name="check_scene_default">跑山局</string>
+    <string name="run_explain_default">编辑</string>
+    <string name="run_topic_default">请输入约跑主题</string>
+    <string name="start_place_default">没想好</string>
+    <string name="click_select_point">点击选点</string>
+    <string name="end_place_default">再约</string>
+    <string name="txt_run_explain">编辑约跑说明&#8230;</string>
+    <string name="time_and_location_default">时间与地点</string>
+    <string name="start_time_default">选择时间</string>
+    <string name="end_time_default">选择时间</string>
+    <string name="run_gather_location_default">地图选点</string>
+    <string name="run_select_city_default">选择城市</string>
+    <string name="run_apply_message_default">报名信息</string>
+    <string name="run_people_upper_limit_default">2&#8211;99</string>
+    <string name="run_play_line_default">选择路书</string>
+    <string name="route_line">路书</string>
+    <string name="run_apple_stop_time_default">选择时间</string>
+
+
+    <string name="run_start_time">出发时间</string>
+    <string name="buy_run_insurance">购买骑行险</string>
+    <string name="show_run_people">约跑成员</string>
+    <string name="show_run_all_people">查看全部成员</string>
+    <string name="invite_more_people">邀请更多好友加入</string>
+
+    <string name="txt_run_sign_in">扫码签到</string>
+    <string name="txt_run_mass_texting">群发通知</string>
+    <string name="txt_run_reading">查看</string>
+    <string name="txt_run_edit">编辑</string>
+    <string name="txt_run_delete">删除</string>
+
+    <string name="show_run_all_content">查看全部评论</string>
+    <string name="run_all_content">全部评论</string>
+    <string name="write_run_all_content">去写评论</string>
+    <string name="i_sign_in">签到</string>
+    <string name="i_want_apply">我要报名</string>
+    <string name="people_full">名额已满</string>
+    <string name="cancel_run">退出约跑</string>
+
+
+    <string name="txt_run_me_launch">我发布</string>
+    <string name="txt_run_participation">我参与</string>
+
+
+    /**
+    * MGPActivity
+    */
+    <string name="close">关闭</string>
+    <string name="mgp_rank">MGP</string>
+    <string name="mgp_ride">骑行赛</string>
+    <string name="mgp">MGP挑战赛</string>
+    <string name="txt_motoband_mgp">MotoBandGP</string>
+    <string name="mgp_time">活动时间</string>
+    <string name="mgp_reach">达成条件</string>
+    <string name="mgp_explain">活动说明</string>
+    <string name="mgp_challenge">立即挑战</string>
+    <string name="mgp_all">全部</string>
+    <string name="motoband_mgp_gain">我在摩托邦获得了</string>
+
+    /**
+    * MessageActivity
+    */
+    <string name="message_other">聚合</string>
+    <string name="recommend_message_motoband">推荐文章给摩托邦</string>
+    <string name="recommend_message">推荐文章</string>
+    <string name="source_media">来源媒体</string>
+    <string name="content_title">填写内容标题</string>
+    <string name="content_link">粘贴内容链接</string>
+    <string name="source_media_hint">请输入来源媒体  微信公众号/头条号</string>
+    <string name="content_title_hint">请输入内容标题</string>
+    <string name="content_link_hint">请粘贴内容链地址</string>
+    <string name="title_pic">标题图片</string>
+    <string name="commit_recommend_message">提交文章</string>
+    <string name="partner">申请成为内容合作号</string>
+
+    <string name="message_name">内容号的名称</string>
+    <string name="seek_my_message">如何找到我的内容号</string>
+    <string name="contact_me">如何联系到我</string>
+    <string name="partner_content">
+        &#160;&#160;&#160;&#160;运营者和所有者（微信公众号／头条号）\n\n
+	&#160;&#160;&#160;&#160;账号或账户名（公众号名／头条号名）\n\n
+	&#160;&#160;&#160;&#160;联系方式（电话／微信／QQ）\n\n
+        如何加入摩托邦内容合作号？\n
+1.请描述上述必要信息并成功发射邮件到摩托邦；\n
+2.摩托邦编辑部收到邮件后与你联系并确认内容号运营者身份；\n
+3.确认成功后即可认证成为官方内容合作号。\n\n
+
+
+加入摩托邦官方内容合作号有什么好处？\n
+1.获得官方内容合作号的识别标记；\n
+2.获得唯一的内容合作号名称，其他用户推荐的本内容号内容将不再采用；\n
+3.内容合作号的推荐内容将优先审核，并有机会获得更好的发布位置；\n
+4.稳定合作一段时间后，有机会获得更高的发布权限。\n\n
+
+申请摩托邦合作号邮箱：tg@motoband.com
+    </string>
+    <string name="apply_for_partner">申请成为合伙人</string>
+    <string name="send_email">发送邮件申请</string>
+    <string name="partner_clause">内容合伙人条款</string>
+    <string name="partner_clause_detail">1.了解车的人选摩托车就是选品牌和风格，不了解的我们就从实际出发教你几招有用的。
+        了解车的人选摩托车就是选品牌和风格，不了解的我们就从实际出发教你几招有用的\n\n\n
+
+2.实际出发教你几招有用的。了解车的人选摩托车就是选品牌和就是选品牌和风格，不了解的我们就从实际出发教你几招有用的\n\n\n
+
+3.了解车的人选摩人选摩人选摩托车就是就是选品格，不了解的我们就从实际出发教你几招有用的格，不了解的我们就从实际出发教你几招有用的\n\n\n
+
+4.了解车的人选摩托车就是选品牌和风格，不了解的我们就从实际出发教你几招有用的\n\n\n
+
+5.了解车的人选摩托车就是选品牌和不了解的我们就从实际出发教你几招有用的</string>
+    <string name="partner_agree_apply">同意并申请</string>
+    <string name="is_my_partner">这是我的原创内容</string>
+    <string name="message_contain">以下内容的标签中包含“头盔”</string>
+    /*
+    *ChatActivity
+    */
+    <string name="txt_record">按住说话</string>
+    <string name="slide_to_cancel_sending">上滑取消发送</string>
+    <string name="chat_set">聊天设置</string>
+    <string name="clean_chat_message">清空聊天记录</string>
+    <string name="clean_chat_report">投诉举报</string>
+    <string name="send_chat">发私信</string>
+    <!--Activity中设置文字用的到的数据-->
+    <!--版本号-->
+    <string name="version_number">MotoBand App V</string>
+
+
+    <!--保险-->
+    <string name="query_pm">查询保费</string>
+    <string name="my_policy">我的保单</string>
+    <string name="my_policy_detail">保单详情</string>
+    <string name="choose_arctic">选择车型</string>
+    <string name="policy_price">购车发票开具价格</string>
+    <string name="policy_time">购车发票开具时间</string>
+    <string name="telephone_counseling">电话咨询</string>
+    <string name="online_customer_service">在线客服</string>
+    <string name="policy_detail">悟空保联合英大泰和财产保险承保</string>
+    <string name="start_query_pm">开始查询保费</string>
+    <string name="insure_package">选择套餐</string>
+    <string name="service_explain">服务说明</string>
+    <string name="now_insure">立即投保</string>
+    <string name="submit_data">提交资料</string>
+    <string name="upload_photo">上传照片</string>
+    <string name="write_information">填写资料</string>
+    <string name="confirm_information">确认信息</string>
+    <string name="pay_insurance_cost">支付保费</string>
+    <string name="testing_code">验车码</string>
+    <string name="insure_data_explain">需要您把以上验车码打印或写在半张A4纸上，并和您的车辆一起拍摄四张不同角度的照片并提交成功，每张照片的车辆都需带有附着验车码的纸张一同拍摄。保险公司为了获得该车辆真实全面的信息，以确保您的车辆完好无损，以此保证进入正常的投保环节。验车码不能遮挡车辆；验车码和车辆照片均需清晰。</string>
+    <string name="upload_car_photo">上传车辆照片</string>
+    <string name="upload_idcard_photo">上传被保险人身份证照片</string>
+    <string name="upload_driving_license_photo">上传行驶证及购车发票</string>
+    <string name="next_step">下一步</string>
+    <string name="cancel_motoband">返回摩托邦</string>
+    <string name="cancel_shop">返回商店</string>
+
+
+    <string name="fill_in_information">填写详细信息</string>
+    <string name="license_plate_number">车牌号</string>
+    <string name="vehicle_identification_code">车辆识别代号</string>
+    <string name="engine_number">发动机号码</string>
+    <string name="insured_name">被保险人姓名</string>
+    <string name="insured_tel">被保险人电话</string>
+    <string name="insured_idcard">被保险人身份证</string>
+
+    <string name="recipient_information">保单收件人信息</string>
+    <string name="insured_same_as">姓名和电话与被保险人相同</string>
+    <string name="recipient_name">保单收件人姓名</string>
+    <string name="recipient_tel">保单收件人电话</string>
+    <string name="recipient_address">保单收件地址</string>
+    <string name="recipient_address_explain">在此输入地址（保单将邮寄至此地址）</string>
+
+    <string name="insured_vehicle">投保车型</string>
+    <string name="shopping_time">购车时间</string>
+    <string name="registration_date">注册日期</string>
+    <string name="car_prices">购车价格</string>
+    <string name="city">城市</string>
+    <string name="payment_submit_data">付款并提交资料</string>
+
+    <string name="insure_company">保险公司简介</string>
+    <string name="wukongbao_detail">北京悟空保科技有限公司（简称悟空保）成立于2015年8月，
+        是互联网保险定制平台，致力于通过为互联网消费场景定制保险产品，改善用户消费体验，
+        优化互联网消费生态系统。 悟空保的B2B2C模式受到资本、互联网行业和保险行业的一致看好。
+        悟空保成立后不到一年的时间里，先后获得了梅花创投、青山资本、唱吧创始人陈华共计1500万元人民币天使投资，
+        以及凤凰祥瑞资本领投、风云资本跟投的1亿元人民币Pre-A轮投资。\n\n
+
+作为互联网保险定制品牌的领跑者，悟空保已经为汽车、电动车、房屋、运动、医疗、O2O、
+        金融、旅游、智能硬件和电商等互联网十大垂直领域提供定制产品。
+        与悟空保建立合作的互联网企业包括58集团、滴滴出行、小牛电动车、
+        好车无忧，等；此外国内一线保险公司包括中国人保、中国人寿、中国平安、太平洋保险、
+        华泰保险等都已经与悟空保达成了深度合作。\n\n
+
+悟空保创始人兼CEO陈志华是中国最年轻的北美精算师之一，
+        亦是中国精算师协会创始会员。在创立悟空保之前，陈志华是京东金融副总裁，
+        负责京东金融保险板块战略规划、核心团队搭建、模式和产品创新等，
+        并在加入京东金融之前有15年保险行业高管经验。\n\n
+
+悟空保核心团队有着卓越的工作经验。
+        总精算师张文娜、首席风控官马海斌都有着超过10年的保险产品开发经验和互联网保险从业经验；
+        公司CTO李义在百度和凡客诚品等企业有着超过10年的研发管理及产品管理经验；
+        公司CMO吴世鸿有着超过10年的外企商务高管及创业经验。</string>
+
+    <string name="yingda_detail">英大泰和财产保险有限股份有限公司（以下简称“公司”）是经中国保监会批准设立的一家全国性股份制财产保险公司，
+        股东包括国网英大国际控股集团有限公司等27家国有大型骨干企业。公司注册资本金21亿元，总部设在北京，于2008年10月28日获准开业。
+        目前，公司拥有北京、陕西、湖北、上海、辽宁、山东、河南、江苏、四川、湖南、广东、河北、浙江、青岛、大连、山西、福建、黑龙江、
+        内蒙古、宁波、安徽、深圳、厦门、天津等24家区域分公司及多家覆盖全国范围的中心支公司。 公司业务经营范围包括：
+        财产损失险；责任保险；信用保险和保证保险；短期健康保险和意外伤害保险；上述业务的再保险业务；
+        国家法律、法规允许的保险资金运用业务；经中国保监会批准的其他业务。 价值理念 公司愿景：
+        把公司建设成为偿付能力坚强、资产优良、服务优质、业绩优秀的“一强三优”的国内一流、国际知名的现代保险公司。
+        企业精神：努力超越 追求卓越 核心价值观：诚信 责任 创新 奉献 经营理念：效益争先 服务创优 诚信树标 品牌求胜\n\n
+
+车险服务优势：\n\n
+
+1. 约定地点定损：发生车险事故后，拨打报案电话预约，查勘员可根据需求至约定地点定损并指导客户完成理赔。\n\n
+
+2. 赔款支付无责方;被保险人车辆与第三方发生事故，我方全责情况下，根据被保险人书面授权的领取赔款授权书，可直接将赔款支付给无责。\n\n
+
+3. 核赔即支付：小额案件损失核定后，核赔通过，赔款即时到账。\n\n
+
+4. 小额人伤快处快赔：责任明确、事实清晰、伤势轻微，无需就诊或简单门诊治疗案件，查勘员赶赴现场 一次性结案处理。\n\n
+
+5. 人伤案件诉讼对接：责任明确人伤案件，人伤理赔专员全程跟踪、资深律师过程参与，介入伤残鉴定，协助被保险人与受害方拟定赔偿协议、提供法律援助。\n\n
+
+6. 非事故救援;保险期限内：为投保商业车损险的客户免费提供北京行政辖区内及全国范围50公里以内非事故车辆救援服务(服务项目包括：换台、搭电、拖车、现场小修)。 </string>
+
+    <string name="report_tel">报案电话：4000-188-688</string>
+    <string name="service_explain1">为什么在摩托邦购买保险？</string>
+    <string name="service_explain1_explain">传统购买交强险的方式不仅费时、费力，保险公司还经常以“没有保单”为由婉言谢绝车主购买，如果能购买的，
+        还需要排队叫号、东跑西跑算上油钱都不值当！商业保险更是无处可买，
+        使用摩托邦购买交强险和商业保险，只需点几下手机屏幕，轻松完成购买过程。</string>
+    <string name="service_explain2">一般多久能收到保单？</string>
+    <string name="service_explain2_explain">一般已经提交的订单，我们会在正常3个工作日内给您办理完成。
+        但是，如果用户提交的资料有误或是其他未知问题，办理时限可能会略有延迟。</string>
+    <string name="service_explain3">服务费可以开发票吗？</string>
+    <string name="service_explain3_explain">我们是由第三方服务商线下给您办理的交强险，不可开具服务费发票。</string>
+    <string name="service_explain4">万一我想退保怎么办？</string>
+    <string name="service_explain4_explain">如果您想取消订单，可以联系英大客服：4000-188-688。为了避免重复投保的问题和纠纷，
+        您的订单一旦提交成功，请勿在别的渠道再次购买。
+        反之，如果您在别的渠道购买后，请勿在摩托邦再次购买。</string>
+
+
+    <string name="policy_moto">选择品牌</string>
+    <string name="audit_result">审核结果</string>
+
+
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+
+</resources>
+

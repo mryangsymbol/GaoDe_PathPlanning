@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayout_main"
+    android:background="@color/M323535"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".activity.SearchViaPointActivity">
+
+    <!--//搜索-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/M4A4D4F"
+        android:orientation="horizontal">
+
+
+        <com.motoband.views.MyEditText
+            android:id="@+id/txt_select_city_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginEnd="@dimen/dp70"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp70"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp10"
+            android:background="@drawable/shape_white"
+            android:bufferType="editable"
+            android:ellipsize="end"
+            android:gravity="center|start"
+            android:hint="@string/txt_search"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingEnd="@dimen/dp36"
+            android:paddingLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp36"
+            android:paddingStart="@dimen/dp10"
+            android:singleLine="true"
+            android:textColor="@color/MFFFFFF"
+            android:textColorHint="@color/MC8C8C8"
+            android:textCursorDrawable="@drawable/shape_cursor_color"
+            android:textSize="@dimen/sp16"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_delete"
+            android:layout_width="@dimen/dp50"
+            android:layout_height="@dimen/dp50"
+            android:layout_alignEnd="@+id/txt_select_city_search"
+            android:layout_alignRight="@+id/txt_select_city_search"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img_delete_telephone"
+                android:layout_width="@dimen/dp16"
+                android:layout_height="@dimen/dp16"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp24"
+                android:layout_marginStart="@dimen/dp24"
+                android:background="@mipmap/nember_button_del_2"
+                android:contentDescription="@null" />
+
+        </LinearLayout>
+
+        <!--//取消-->
+        <TextView
+            android:id="@+id/txt_cancel"
+            android:layout_width="@dimen/dp70"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/camera_cancel"
+            android:textColor="@color/MA3A3A3"
+            android:textSize="@dimen/sp16"
+
+            />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="@null" />
+
+</LinearLayout>
